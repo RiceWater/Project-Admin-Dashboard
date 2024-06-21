@@ -1,3 +1,4 @@
+/* https://www.realtimecolors.com/?colors=161409-fcfaf8-b8aa56-98d397-76c695&fonts=Poppins-Poppins */
 *{
   margin: 0px;
   padding: 0px;
@@ -11,6 +12,10 @@ ul li{
 .grid-container-1{
   display: grid;
   grid-template-columns: 1fr 5fr;
+}
+
+header{
+  background-color: #b8aa56;
 }
 
 .grid-container-2{
@@ -27,6 +32,14 @@ ul li{
   grid-template-columns: auto 1fr;
   column-gap: 8px;
   margin-left: 16px;
+}
+
+.dashboard-wrapper > img{
+  width: 3rem;
+}
+
+.grid-container-2 > ul img{
+  width: 1.5em;
 }
 
 .search-section{
